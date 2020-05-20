@@ -11,7 +11,7 @@ function sleep(ms) {
 async function typeWriter() {
   await sleep(initialWait);
 
-  for (let i = 0; i <text.length; i++) {
+  for (let i = 0; i < text.length; i++) {
   textContainer.innerHTML += text[i];
   await sleep(Math.round(Math.random() * speed));
   }
